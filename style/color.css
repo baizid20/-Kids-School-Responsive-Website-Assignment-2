@@ -29,18 +29,21 @@ body{
 .beguni{
     color:#5D58EF;
 }
+.black{
+    color:#111111;
+}
 
-/* navbar style*/
+/* navbar style start here*/
 /* bold 32 */
 .icon-bold{
     font-weight: bold;
-    font-size:1.9 rem;
-    line-height: 1.79 rem;
+    font-size:1.9rem;
+    line-height: 1.79rem;
 }
 /* medium 20 */
 .nav-a-text{
-    font-size: 1.19 rem;
-    line-height: 1.79 rem;
+    font-size: 1.19rem;
+    line-height: 1.79rem;
     font-weight: bold;
 }
 
@@ -58,8 +61,8 @@ body{
     gap:10px;
 }
 .navbar-logo-img{
-    width:2.74 rem;
-    height: 1.19 rem;
+    width:3rem;
+    height: 3.13rem;
 }
 
 .nav-container{
@@ -74,7 +77,7 @@ nav a{
 }
 
 .navbar-btn{
-    font-size: 1.19 rem;
+    font-size: 1.19rem;
     font-weight:600;
     color:white;
     background-color: #FEA301;
@@ -87,10 +90,55 @@ nav a{
     width:2rem;
     height: 2rem;
 }
+
+/* navbar style ended*/
+
+
+/* Banner section style start here */
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.banner-title{
+    font-size: 3.33rem;
+    font-weight: bold;
+}
+.banner-description{
+    font-size: 1.19rem;
+    font-weight: normal;
+    line-height: auto;
+}
+.banner-btn{
+    background-color: #111111;
+    color:white;
+    padding:12px 45px;
+    border-radius: 8px;
+    border:none;
+    line-height: 1.79rem;
+    font-size: 1.19rem;
+    font-weight: bold;
+}
+.banner-img{
+    width:27.86rem;
+    height: 34.16rem;
+}
+
+/* Banner section style start here */
+
+
+
+
+
+
+
 .hide{
     display: none;
 }
 
+/* Responsive Design for Mobile device */
 @media screen and (max-width:576px) {
     .nav-container , 
     .navbar-btn{
