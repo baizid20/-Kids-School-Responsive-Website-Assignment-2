@@ -1,4 +1,102 @@
-.body-class{
-    max-width: 1140px;
-    margin: 0 auto;
+/* Important style */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+
+.quicksand{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+body{
+    max-width: 1440px;
+    margin: 2rem auto;
+    width:90vw;
+}
+
+/* shared style */
+.orange{
+    color:#FEA301;
+}
+.sky-blue{
+    color:#01ACFD;
+}
+.firoza{
+    color:#05D4DF;
+}
+.beguni{
+    color:#5D58EF;
+}
+
+/* navbar style*/
+/* bold 32 */
+.icon-bold{
+    font-weight: bold;
+    font-size:1.9 rem;
+    line-height: 1.79 rem;
+}
+/* medium 20 */
+.nav-a-text{
+    font-size: 1.19 rem;
+    line-height: 1.79 rem;
+    font-weight: bold;
+}
+
+
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header-icon-imgage-div{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.navbar-logo-img{
+    width:2.74 rem;
+    height: 1.19 rem;
+}
+
+.nav-container{
+   display: flex; 
+   gap:2rem;
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+}
+
+.navbar-btn{
+    font-size: 1.19 rem;
+    font-weight:600;
+    color:white;
+    background-color: #FEA301;
+    padding:12px 45px;
+    border-radius: 8px;
+    border:none;
+    
+}
+.menu{
+    width:2rem;
+    height: 2rem;
+}
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .nav-container , 
+    .navbar-btn{
+        display: none;
+    }
+    .menu-container{
+        display: block;
+    }
 }
