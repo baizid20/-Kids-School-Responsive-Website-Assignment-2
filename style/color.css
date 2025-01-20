@@ -122,8 +122,8 @@ nav a{
     font-weight: bold;
 }
 .banner-img{
-    width:27.86rem;
-    height: 34.16rem;
+    width:100%;
+    
 }
 
 /* Banner section style start here */
@@ -140,6 +140,12 @@ nav a{
 
 /* Responsive Design for Mobile device */
 @media screen and (max-width:576px) {
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-content-div{
+    text-align: center;
+    }
     .nav-container , 
     .navbar-btn{
         display: none;
