@@ -211,13 +211,17 @@ nav a{
 /* standard curriculum card section 1 ended */
 
 /* our-stories style section start */
+.our-bg-section{
+    background-image: linear-gradient(to bottom, #FFFFFF , #f7c46a );
+  
+
+}
 #our-stories-id{
    
    width:100vw;
    max-width:100%;
    margin:0;
    padding:0 0 4rem 0;
-   background-image: linear-gradient(to bottom, #FFFFFF , #f7c46a );
    box-sizing: border-box;
 }
 
@@ -469,6 +473,22 @@ nav a{
 
 /* Responsive Design for Mobile device */
 @media screen and (max-width:576px) {
+
+    article{
+        max-width: 1440px;
+        margin: 2rem auto;
+        width:100%;
+        
+    }
+    .card-1-container{
+         margin:auto 1rem;
+    }
+
+    #our-stories-id{
+        padding: 0 10px 0 10px;
+    }
+    
+
     .banner-container , 
     .card-section-1-main-card
     {
@@ -477,9 +497,7 @@ nav a{
     .main-div-footer{
         flex-direction: column;
     }
-    article{
-        width:100%;
-    }
+    
    
     .banner-content-div{
     text-align: center;
